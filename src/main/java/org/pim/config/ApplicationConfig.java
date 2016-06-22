@@ -6,4 +6,5 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan("org.pim")
 public class ApplicationConfig {
+
 }
