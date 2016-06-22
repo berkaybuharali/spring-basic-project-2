@@ -10,5 +10,10 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
+    <bean id="pdfViewResolver" class="org.springframework.web.servlet.view.ResourceBundleViewResolver">
+        <property name="order" value="1" />
+        <property name="basename" value="views" />
+    </bean>
+
     <context:component-scan base-package="org.pim"/>
 </beans>

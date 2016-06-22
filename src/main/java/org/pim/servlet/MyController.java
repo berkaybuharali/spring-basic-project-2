@@ -40,4 +40,12 @@ public class MyController {
         modelAndView.addObject("quantity", quantity);
         return modelAndView;
     }
+
+    @RequestMapping("pdf")
+    public ModelAndView pdfCreator() {
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("mypdf");
+        modelAndView.addObject("message", "Buy");
+        return modelAndView;
+    }
 }

@@ -13,5 +13,6 @@
 <body>
 <h1>Checkout Bookstore</h1>
 You want <%= request.getParameter("quantity")%> book <%= request.getParameter("book")%>
+<td><a href="/spring/pdf">Click for pdf</a></td>
 </body>
 </html>
